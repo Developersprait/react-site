@@ -1,8 +1,28 @@
+@import '/src/sass/abstracts/mixins';
+@import '/src/sass/abstracts/variables';
+
 .header{
     width: 100%;
     height: 90vh;
-    background: url("/static/img/hero.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
+    @include bgImage('/static/img/hero.jpg');
+    background-color: rgba(0,0,0,.6);
+    @include flexCenter;
+    color: $white;
+
+    &__content{
+        text-align: center;
+        &-links a {
+          text-decoration: none;
+          color: $white;
+          margin-left: 15px;
+          font-size: 17px;
+        }
+    }
+
+    &__content-h1{
+       font-size: 75px;
+       margin-bottom: 20px;
+       letter-spacing: 1px;
+       font-weight: 600;
+    }
 }

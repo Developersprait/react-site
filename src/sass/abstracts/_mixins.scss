@@ -1,0 +1,14 @@
+@mixin bgImage($image) {
+    background: url($image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
