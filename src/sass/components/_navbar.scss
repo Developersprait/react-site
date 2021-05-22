@@ -3,8 +3,30 @@
     position: fixed;
     top: 0;
     background: transparent;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
     &__left img{
         width: 100px;
         height: 100px;
+        margin-top: 20px;
+    }
+    &__right{
+        display: flex;
+        list-style: none;
+
+        & li{
+            margin-top: 20px;
+        }
+          & a{
+            text-decoration: none;
+            color: $white;
+            font-size: 12px;
+            font-weight: 500;
+            padding: 15px 7px;
+            margin: 20px 15px;
+        }
     }
 }

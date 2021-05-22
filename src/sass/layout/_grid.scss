@@ -1,0 +1,7 @@
+@import '../abstracts/variables';
+
+@for $i from 1 to $columns {
+    .col-#{$i} {
+        width: (100% / 12) * $i;
+    }
+}
