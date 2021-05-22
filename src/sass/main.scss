@@ -1,7 +1,12 @@
 @import 'base/base';
-//import header
+
+//import components
 @import 'components/header';
-//import variables
+@import 'components/navbar';
+
+//import abstracts
 @import 'abstracts/variables';
-//import mixins
-@import 'abstracts/mixins'
+@import 'abstracts/mixins';
+
+//import utils
+@import 'utils/util';

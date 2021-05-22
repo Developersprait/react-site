@@ -17,6 +17,14 @@
           margin-left: 15px;
           font-size: 17px;
         }
+        &-span{
+            display: inline-block;
+            height: 15px;
+            width: 1.5px;
+            background: $white;
+            margin-left: 20px;
+            transform: rotate(10deg);
+        }
     }
 
     &__content-h1{

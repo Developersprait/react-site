@@ -1,0 +1,10 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: transparent;
+    &__left img{
+        width: 100px;
+        height: 100px;
+    }
+}
