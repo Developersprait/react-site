@@ -16,7 +16,7 @@ const About = () => {
                           Our association includes designers,
                            front-end and back-end developers, 
                          SEO and SMM specialists.
-                         And a gray cat.
+                         And a gray cat.<br/>
                          Our community is young, but this gives us an advantage in young professionals, 
                          an uncomplicated view of the world and
                           modern concepts and a craving for everything new.</p>
