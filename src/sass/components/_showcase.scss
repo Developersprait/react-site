@@ -1,0 +1,5 @@
+.show{
+    @include bgImage('/static/img/pops.jpg');
+    width: 100%;
+    height: 400px;
+}
