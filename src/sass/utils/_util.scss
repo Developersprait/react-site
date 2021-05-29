@@ -3,9 +3,9 @@
     margin: 0 auto;
 }
 .whiteBg{
-    background: #fff;
+    background: #fff!important;
     & a{
-        color: #000;
+        color: #000!important;
     }
 }
 .transparent{
@@ -13,4 +13,10 @@
     & a{
         color:#fff
     }
+}
+.pl-15{
+    padding-left: 15px;
+}
+.mt-60{
+    margin-top: 60px;
 }

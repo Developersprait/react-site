@@ -7,8 +7,27 @@
         font-size: 30px;
     }
     &__text p{
-        color: #777;
+        color: $gray;
         line-height: 2;
         font-size: 15px;
+    }
+    &__section{
+        background: #efefef;
+        padding: 60px;
+        text-align: center;
+        &-icon{
+            color: $green;
+            margin-bottom: 10px;
+        }
+        &-heading h6{
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        &-text{
+            color: $gray;
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
     }
 }

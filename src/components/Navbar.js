@@ -14,7 +14,7 @@ const Navbar = () => {
         }
     }
     return (
-        <div className={`navbar {state ? 'whiteBg' : 'transparent'}`}>
+        <div className={`navbar ${state? 'whiteBg' : 'transparent'}`}>
             <div className="container">
                 <div className="navbar__content">
                     <div className="navbar__left">
