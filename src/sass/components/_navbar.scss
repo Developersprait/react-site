@@ -4,6 +4,7 @@
     top: 0;
     background: transparent;
     transition: all .5s linear;
+    z-index: 5;
     &__content{
         display: flex;
         justify-content: space-between;

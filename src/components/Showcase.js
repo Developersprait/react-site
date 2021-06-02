@@ -11,7 +11,7 @@ const Showcase = () => {
            <div className="container rel">
               <div className="show___content">
                   <h1>Contact us. We will </h1>
-                  <h1>bring your idea into life</h1>
+                  <h1>bring your idea to life</h1>
               </div>
               <div className="show__card">
                   <h6 className="show__card-h6">{state.h6}</h6>

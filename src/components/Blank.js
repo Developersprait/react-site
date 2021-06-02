@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blank = () => {
     return (
-        <div>
+        <div className="blank">
             
         </div>
     )
