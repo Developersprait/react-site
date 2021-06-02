@@ -1,11 +1,20 @@
-@import '../abstracts/variables';
+// @import '../abstracts/variables';
 
 @for $i from 1 to $columns {
     .col-#{$i} {
         flex: 0 0 (100% / 12) * $i;
         width: (100% / 12) * $i;
     }
+    @include responsive (768px){
+        .col-#{$i} {
+            flex: 0 0 100%;
+            width: 100%;
+            padding-left: 0;
+        }
+    }
 }
+
+
 .row{
     display: flex;
     flex-wrap: wrap;

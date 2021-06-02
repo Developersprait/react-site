@@ -5,16 +5,27 @@
     &__h4{
         font-weight: 600;
         font-size: 30px;
+        @include responsive(756px){
+            padding-left: 20px;
+        }
     }
     &__text p{
         color: $gray;
         line-height: 2;
         font-size: 15px;
+        font-weight: 300;
+        padding-left: 50px;
+        @include responsive(756px){
+            padding-left: 20px;
+        }
     }
     &__section{
         background: #efefef;
         padding: 50px;
         text-align: center;
+        @include responsive(756px){
+            margin-bottom: 20px;
+        }
         &-icon{
             color: $green;
             margin-bottom: 10px;
